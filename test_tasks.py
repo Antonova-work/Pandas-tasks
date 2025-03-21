@@ -12,6 +12,7 @@ print(col)
 '''
 2. Рассчитайте среднее значение показателей для каждого из столбцов c номерами 3-6.
 '''
+
 import pandas as pd
 
 col = pd.read_csv('sp500hst.txt', sep=',',
